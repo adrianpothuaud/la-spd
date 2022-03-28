@@ -24,9 +24,7 @@
   <!-- Bootstrap -->
   <link rel="stylesheet" href="/bootstrap.min.css" />
   <!-- Custom -->
-  <link rel="stylesheet" href="/spd-globals.css" />
-  <link rel="stylesheet" href="/spd-layout.css" />
-  <link rel="stylesheet" href="/spd-index.css" />
+  <link rel="stylesheet" href="/spd.css" />
 </head>
 
 <body>
@@ -57,8 +55,38 @@
   </aside>
 
   <main>
-    <h1>Bienvenue à la SPD!</h1>
-    <p>Nous protégons les développeurs et leur métier depuis 2111.</p>
+    <article>
+      <img alt="" src="/brand.png" />
+    </article>
+    
+    <article class="bg-article">
+      <p>
+        Fondée en 2111, la SPD protège les développeurs et leur métier, bénévolement, depuis 111ans.
+      </p>
+    </article>
+
+    <article>
+      <p>La SPD met un point d’honneur à redonner aux Développeurs leur gloire des années 2000.</p>
+    </article>
+
+    <div id="testimonials">
+      <div id="testimonial-articles"></div>
+      <div id="testimonials-slider">
+        <div>
+          <button id="left-button">
+            <img alt="aller vers la gauche" height="48" src="/left-arrow-icon.png" width="48" />
+          </button>
+        </div>
+        <div>
+
+        </div>
+        <div>
+          <button id="right-button">
+            <img alt="aller vers la droite" height="48" src="/right-arrow-icon.png" width="48" />
+          </button>
+        </div>
+      </div>
+    </div>
   </main>
 
   <footer>
@@ -81,6 +109,8 @@
 
   <!-- Bootstrap -->
   <script src="/bootstrap.bundle.min.js"></script>
+  <!-- Testimonials -->
+  <script src="/testimonials.js"></script>
 </body>
 
 </html>
