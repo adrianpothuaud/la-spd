@@ -24,17 +24,37 @@
   <!-- Bootstrap -->
   <link rel="stylesheet" href="/bootstrap.min.css" />
   <!-- Custom -->
-  <link rel="stylesheet" href="/spd.css" />
+  <link rel="stylesheet" href="/spd-globals.css" />
+  <link rel="stylesheet" href="/spd-layout.css" />
 </head>
 
 <body>
-  <aside>
+  <aside class="aside-fabs">
     <nav>
-      <ul>
-        <li><a href="/events">Nos évènements</a></li>
+      <ul class="fabs-wrapper">
+        <li class="fab">
+          <a href="/events.html">
+            <img alt="" height="40" src="/events-icon.png" width="40" />
+          </a>
+        </li>
       </ul>
     </nav>
   </aside>
+  <aside class="header">
+    <article>
+      <img alt="Logo de la marque" height="56" src="/brand.png" width="56" />
+    </article>
+    <nav>
+      <ul class="header-links">
+        <li class="header-link">
+          <a href="/events.html">
+            Nos Évènements
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </aside>
+
   <main>
     <h1>Bienvenue à la SPD!</h1>
     <p>Nous protégons les développeurs et leur métier depuis 2111.</p>
