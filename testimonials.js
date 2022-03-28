@@ -39,7 +39,7 @@ const changeTestimonialDisplay = () => {
       const container = document.getElementById("testimonial-articles")
 
       const article = document.createElement("article")
-      article.className = "bg-article testimonial-card"
+      article.className = "testimonial-card"
       article.setAttribute("article-id", testimonialIndex)
     
       const header = document.createElement("div")
