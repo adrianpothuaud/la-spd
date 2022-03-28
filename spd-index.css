@@ -1,7 +1,7 @@
 .aside-fabs {
   position: fixed;
-  top: 8px;
-  left: 8px;
+  bottom: 8px;
+  right: 8px;
 
   display: flex;
   flex-direction: column;
@@ -32,36 +32,10 @@
   align-items: center;
 }
 
-.events-hero-article {
-  padding: 16px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-@media screen and (max-width: 768px) {
-  .events-hero-article {
-    flex-direction: row;
-  }
-
-  .events-hero-article h1 {
-    margin: 0;
-    padding: 0;
-  }
-
-  body {
-    margin-top: 32px;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .aside-fabs {
     display: none;
     height: 0;
     width: 0;
-  }
-  .events-hero-article {
-    flex-direction: column;
   }
 }

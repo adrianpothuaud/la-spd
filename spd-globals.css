@@ -1,7 +1,16 @@
+@font-face {
+  font-family: "Italiana";
+  src: url("Italiana-Regular.ttf");
+}
+
 html, body {
   margin: 0;
 }
 
 body {
   padding: 16px;
+}
+
+* {
+  font-family: 'Italiana', 'Arial', 'sans-serif';
 }
