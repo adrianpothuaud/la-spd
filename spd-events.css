@@ -1,0 +1,19 @@
+.events-hero-article {
+  padding: 16px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .events-hero-article {
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .events-hero-article {
+    flex-direction: column;
+  }
+}
