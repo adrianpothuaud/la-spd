@@ -7,6 +7,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  z-index: 5;
 }
 
 .fabs-wrapper {
@@ -61,6 +63,46 @@
 .header-link a {
   text-decoration: none;
   color: white;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  background-color: rgba(5, 115, 163, 0.5);
+
+  padding: 8px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright {
+  color: white;
+  margin-top: 16px;
+}
+
+.social-links {
+  list-style-type: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 8px;
+  padding: 0;
+}
+
+.social-links li {
+  background-color: white;
+  border-radius: 8px;
+
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 @media screen and (max-width: 768px) {
